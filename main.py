@@ -18,27 +18,27 @@ def __main__:
  account_name=input("Account name ? ")
    if account_name=="":
      print('please input a real name')
-   else if req.on(`www.instagram.com/%account_name%`)==Flase:
+   else if req.on(`www.instagram.com/Fabio_Caprio_17`)==Flase:
      print('I didnt found your instagram account')
  print("Please choose a botter category:')
  print("");print("[1] - Likes ");print("");print("[2] - Views ");print("");print("[1] - Followers ");print("");
    choose=input('> ')
        if choose=="1":
-          url=input('Paste your instagram post url (your account need to be public')
+          url=input('https://www.instagram.com/fabio_caprio_17/')
           if req.url==False:
        print('cannot find the post')
           else: 
        accnum=1
             while True:
-                accounts.newInstagram('goto --like %url%')
+                accounts.newInstagram('goto --like https://www.instagram.com/fabio_caprio_17/')
               accnum= accnum+1
        print(str(accnum) + " likes done ")
      else if choose="2":
-       url=input("please input your story url (need to be public and can be found on instagram's computer version")
+       url=input("https://www.instagram.com/stories/highlights/18002966860902324/?r=1")
           if req.url==False:
        print('cannot find the story/account')
        else: 
-       req.url("https://www.instagram.com/stories/%account_name%/%url%/")
+       req.url("https://www.instagram.com/stories/Fabio_Caprio_17/https://www.instagram.com/fabio_caprio_17/")
        req.new accounts 
              def __gen__:
                   acounts.new Instagrams (forViews) 
